@@ -28,9 +28,9 @@ urlpatterns = [
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="My API",
+      title="To-Do API - Ocean Professional",
       default_version='v1',
-      description="Test description",
+      description="Clean and minimal To-Do CRUD API with blue (#2563EB) & amber (#F59E0B) accents.",
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
